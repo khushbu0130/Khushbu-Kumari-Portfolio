@@ -100,6 +100,31 @@ color:white;
 transition:0.3s;
 }
 
+.view-btn,
+.download-btn{
+    padding:15px 35px;
+    border-radius:15px;
+    text-decoration:none;
+    font-size:1.2rem;
+    font-weight:700;
+    transition:0.3s;
+}
+
+.view-btn{
+    background:#38BDF8;
+    color:#0F172A;
+}
+
+.download-btn{
+    background:#22C55E;
+    color:white;
+}
+
+.view-btn:hover,
+.download-btn:hover{
+    transform:translateY(-5px);
+}
+
 .all-project-btn:hover{
 transform:scale(1.05);
 }
