@@ -189,20 +189,36 @@ nav ul li a:hover{
 
 .stats{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-    gap:20px;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    margin-top:30px;
 }
 
 .stat{
     background:#1E293B;
-    text-align:center;
-    padding:30px;
+    padding:30px 20px;
     border-radius:15px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    min-height:160px;
+
+    text-align:center;
+
+    transition:.3s;
+}
+
+.stat:hover{
+    transform:translateY(-8px);
 }
 
 .stat h3{
-    font-size:2rem;
     color:#38BDF8;
+    font-size:2rem;
+    margin-bottom:10px;
 }
 
 /* CONTACT */
@@ -555,50 +571,48 @@ Python • Deep Learning • CNN • Computer Vision • Research
 
 </section>
 
-<section>
+<section id="achievements">
+
 <div class="container">
 
 <h2>Achievements</h2>
 
 <div class="stats">
 
-<a
-href="https://github.com/khushbu0130?tab=repositories"
-target="_blank"
-class="stat-link">
+<a href="https://github.com/khushbu0130?tab=repositories"
+   target="_blank"
+   class="stat-link">
 
 <div class="stat">
-
 <h3>20+</h3>
-
 <p>Projects Built</p>
-
-<span>Click to View All Projects → </span>
-
+<span>View All Projects →</span>
 </div>
 
 </a>
-
-<section class="all-projects">
-
-
-</section>
 
 <div class="stat">
 <h3>8.75</h3>
 <p>CGPA</p>
 </div>
 
-<a href="#hackathons" class="stat-link">
+<a href="#hackathons"
+   class="stat-link">
 
 <div class="stat">
-
 <h3>3+</h3>
 <p>Hackathons</p>
-<span>Click to View →</span>
+<span>View Details →</span>
 </div>
 
 </a>
+
+</div>
+
+</div>
+
+</section>
+
 
 <section id="hackathons">
 
@@ -625,9 +639,9 @@ collaborating in a competitive environment.
 <h3>I Love Hackathon</h3>
 
 <p>
-Participated in team-based problem solving and
-application development challenges while exploring
-real-world use cases and emerging technologies.
+Participated in team-based problem-solving and application
+development challenges while exploring real-world use cases
+and emerging technologies.
 </p>
 
 </div>
@@ -648,11 +662,6 @@ AI-driven security solutions and collaborative development.
 
 </div>
 
-</section>
-    
-</div>
-
-</div>
 </section>
 
 <section id="contact">
