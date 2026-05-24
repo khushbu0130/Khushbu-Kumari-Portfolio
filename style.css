@@ -1,6 +1,6 @@
-
-body{font-family:Arial,sans-serif;max-width:1100px;margin:auto;padding:20px;line-height:1.6}
-header{text-align:center;padding:30px}
-.links a{margin:10px;text-decoration:none}
-.card{border:1px solid #ddd;padding:15px;margin:10px 0;border-radius:8px}
-h2{border-bottom:2px solid #ddd;padding-bottom:5px}
+Background: #0F172A;      /* Dark Navy */
+Cards: #1E293B;           /* Slate */
+Primary: #38BDF8;         /* Sky Blue */
+Secondary: #22C55E;       /* Green */
+Text: #F8FAFC;            /* White */
+Subtext: #CBD5E1;         /* Light Gray */
