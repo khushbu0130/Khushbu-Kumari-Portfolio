@@ -1,4 +1,4 @@
-# 🌟 Khushbu Kumari - Portfolio Website
+## Khushbu Kumari - Portfolio Website
 
 Welcome to my personal portfolio website! This portfolio showcases my projects, technical skills, achievements, certifications, and experience in software development, AI/ML, web development, and data analytics.
 
@@ -18,19 +18,6 @@ Engineering graduate with hands-on experience in software development and user-f
 
 ---
 
-## ✨ Portfolio Features
-
-- Modern and responsive UI
-- Dark-themed professional design
-- Download Resume functionality
-- GitHub repository integration
-- Featured project showcase
-- Clickable GitHub, LinkedIn, LeetCode, and HackerRank profiles
-- GitHub activity and statistics section
-- Mobile-friendly layout
-- Smooth scrolling navigation
-
----
 
 ## 🛠️ Tech Stack
 
