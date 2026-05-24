@@ -5,6 +5,99 @@ Secondary: #22C55E;       /* Green */
 Text: #F8FAFC;            /* White */
 Subtext: #CBD5E1;         /* Light Gray */
 
+
+
+.hero-content{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:60px;
+    flex-wrap:wrap;
+}
+
+.profile-image img{
+    width:320px;
+    height:320px;
+    object-fit:cover;
+    border-radius:50%;
+    border:6px solid #38BDF8;
+    box-shadow:0 0 30px rgba(56,189,248,0.5);
+    transition:0.4s;
+}
+
+.profile-image img:hover{
+    transform:scale(1.05);
+}
+
+.hero-text{
+    max-width:650px;
+}
+
+.hero-text h1{
+    font-size:3.5rem;
+    margin-bottom:15px;
+}
+
+.hero-text span{
+    color:#38BDF8;
+}
+
+.hero-text h3{
+    margin-bottom:20px;
+    color:#CBD5E1;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:15px;
+    margin-top:25px;
+    flex-wrap:wrap;
+}
+
+.view-btn,
+.download-btn{
+    padding:14px 28px;
+    border-radius:12px;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.view-btn{
+    background:#38BDF8;
+    color:#0F172A;
+}
+
+.download-btn{
+    background:#22C55E;
+    color:white;
+}
+
+.view-btn:hover,
+.download-btn:hover{
+    transform:translateY(-5px);
+}
+
+@media(max-width:768px){
+
+.profile-image img{
+    width:220px;
+    height:220px;
+}
+
+.hero-text{
+    text-align:center;
+}
+
+.hero-text h1{
+    font-size:2.4rem;
+}
+
+.hero-buttons{
+    justify-content:center;
+}
+}
+
 .btn{
     display:inline-block;
     padding:12px 24px;
@@ -127,4 +220,30 @@ transition:0.3s;
 
 .all-project-btn:hover{
 transform:scale(1.05);
+}
+
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:30px;
+    flex-wrap:wrap;
+}
+
+.resume-btn{
+    display:inline-block;
+    background:#38BDF8;
+    color:#0F172A;
+    padding:15px 35px;
+    border-radius:15px;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:700;
+    box-shadow:0 4px 15px rgba(56,189,248,0.4);
+    transition:all 0.3s ease;
+}
+
+.resume-btn:hover{
+    transform:translateY(-5px);
+    background:#0EA5E9;
 }
