@@ -15,16 +15,21 @@ Subtext: #CBD5E1;         /* Light Gray */
     flex-wrap:wrap;
 }
 
-.profile-image img{
-    width:320px;
-    height:320px;
-    object-fit:cover;
-    border-radius:50%;
-    border:6px solid #38BDF8;
-    box-shadow:0 0 30px rgba(56,189,248,0.5);
-    transition:0.4s;
+.profile-image{
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
+.profile-image img{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid #38BDF8;
+    box-shadow:0 0 25px rgba(56,189,248,0.5);
+    display:block;
+}
 .profile-image img:hover{
     transform:scale(1.05);
 }
