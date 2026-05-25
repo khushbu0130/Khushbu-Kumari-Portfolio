@@ -4,11 +4,8 @@ Welcome to my personal portfolio website! This portfolio showcases my projects, 
 
 ## 🚀 Live Portfolio
 
-🔗 Add your deployed portfolio link here
+🔗 https://khushbu0130.github.io/Khushbu-Kumari-Portfolio/
 
-```text
-https://your-portfolio-link.com
-```
 
 ---
 
