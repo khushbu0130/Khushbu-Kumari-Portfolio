@@ -81,12 +81,27 @@ nav ul li a:hover{
 
 /* HERO */
 
+.hero{
+    min-height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero .container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
 .hero-content{
     display:flex;
+    flex-direction:column;
     align-items:center;
     justify-content:center;
-    gap:60px;
-    flex-wrap:wrap;
+    text-align:center;
 }
 
 .profile-image img{
@@ -295,24 +310,20 @@ nav ul{
 
 
 <section class="hero">
+  <div class="container">
+    <div class="hero-content">
 
-<div class="container">
+      <div class="profile-image">
+        <img src="./assets/Khushbu_Kumari_Profile_Pic.jpeg" alt="Khushbu Kumari">
+      </div>
 
-<div class="hero-content">
-
-<div class="profile-image">
-    <img src="./assets/Khushbu_Kumari_Profile_Pic.jpeg" alt="Khushbu Kumari">
-</div>
-
-<div class="hero-text">
-
-<h1>Hi, I'm <span>Khushbu Kumari</span></h1>
+      <h1>Hi, I'm <span>Khushbu Kumari</span></h1>
 
       <h3>Software Developer | AI & Web Enthusiast</h3>
 
-<p>
-    Building scalable applications, AI-driven solutions, and user-focused digital experiences through software development, machine learning, and full-stack technologies.
-</p>
+      <p>
+        Building scalable applications, AI-driven solutions, and user-focused digital experiences through software development, machine learning, and full-stack technologies.
+      </p>
 
 <div class="resume-container">
 
@@ -622,23 +633,14 @@ Python • Deep Learning • CNN • Computer Vision • Research
     </div>
 </div>
 
-<div class="project-card">
-    <h3>HackStreet 3.0</h3>
-    <p>Participated in HackStreet 3.0 organized by IEEE Student Branch JIIT Noida.</p>
 
-    <div class="project-buttons">
-        <a href="./assets/certificates/Hackstreet_Hackathon.pdf" target="_blank">
-            View Certificate
-        </a>
-    </div>
-</div>
 
 <div class="project-card">
     <h3>Cloud Computing</h3>
     <p>Infosys Springboard - Introduction to Cloud Computing.</p>
 
     <div class="project-buttons">
-        <a href="./assets/certificates/Cloud_Computing_Certificate.pdf" target="_blank">
+        <a href="./assets/Cloud_Computing_Certificate.pdf" target="_blank">
             View Certificate
         </a>
     </div>
@@ -649,7 +651,7 @@ Python • Deep Learning • CNN • Computer Vision • Research
     <p>Scaler Topics Python Course Certification.</p>
 
     <div class="project-buttons">
-        <a href="./assets/certificates/Python_Completion_Certificate.pdf" target="_blank">
+        <a href="./assets/Python_Completion_Certificate.pdf" target="_blank">
             View Certificate
         </a>
     </div>
@@ -660,7 +662,7 @@ Python • Deep Learning • CNN • Computer Vision • Research
     <p>Microsoft Learn Student Club Certification.</p>
 
     <div class="project-buttons">
-        <a href="./assets/certificates/Microsoft_Learn_Club_Certificate.pdf" target="_blank">
+        <a href="./assets/Microsoft_Learn_Club_Certificate.pdf" target="_blank">
             View Certificate
         </a>
     </div>
@@ -671,7 +673,7 @@ Python • Deep Learning • CNN • Computer Vision • Research
     <p>Completed Cisco Networking Academy Networking Basics course.</p>
 
     <div class="project-buttons">
-        <a href="./assets/certificates/Cisco_Certificate.pdf" target="_blank">
+        <a href="./assets/Cisco_Certificate.pdf" target="_blank">
             View Certificate
         </a>
     </div>
@@ -682,7 +684,7 @@ Python • Deep Learning • CNN • Computer Vision • Research
     <p>Infosys Springboard Java Programming Fundamentals.</p>
 
     <div class="project-buttons">
-        <a href="./assets/certificates/Java_Fundamentals_Certificate.pdf" target="_blank">
+        <a href="./assets/Java_Fundamentals_Certificate.pdf" target="_blank">
             View Certificate
         </a>
     </div>
@@ -693,7 +695,7 @@ Python • Deep Learning • CNN • Computer Vision • Research
     <p>Infosys Springboard Java Swing GUI Widget Toolkit.</p>
 
     <div class="project-buttons">
-        <a href="./assets/certificates/Java_Swing_GUI_Widget_Toolkit_Certificate.pdf" target="_blank">
+        <a href="./assets/Java_Swing_GUI_Widget_Toolkit_Certificate.pdf" target="_blank">
             View Certificate
         </a>
     </div>
@@ -704,7 +706,7 @@ Python • Deep Learning • CNN • Computer Vision • Research
     <p>Successfully completed TechLeap with ExpertPedia AI Fellowship Internship.</p>
 
     <div class="project-buttons">
-        <a href="./assets/certificates/Internship_Completion_Certificate_Learners_Byte.pdf" target="_blank">
+        <a href="./assets/Internship_Completion_Certificate_Learners_Byte.pdf" target="_blank">
             View Certificate
         </a>
     </div>
