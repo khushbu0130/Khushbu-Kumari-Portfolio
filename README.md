@@ -7,7 +7,10 @@ Welcome to my personal portfolio website! This portfolio showcases my projects, 
 🔗 https://khushbu0130.github.io/Khushbu-Kumari-Portfolio/
 
 
-![https://github.com/khushbu0130/Khushbu-Kumari-Portfolio/blob/1e4ef5bb3c86309cec4b60d4611888fbcedc8626/assets/Portfolio%20Banner.png](Portfolio Banner)
+![Portfolio Banner](https://github.com/khushbu0130/Khushbu-Kumari-Portfolio/blob/1e4ef5bb3c86309cec4b60d4611888fbcedc8626/assets/Portfolio%20Banner.png)
+
+
+
 
 
 ---
